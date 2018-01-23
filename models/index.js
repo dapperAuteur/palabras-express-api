@@ -6,3 +6,4 @@ mongoose.Promise = Promise;
 
 module.exports.Palabra = require("./palabra");
 module.exports.Verbo = require("./verbo");
+module.exports.PrefixSuffixRoot = require("./prefixSuffixRoot")

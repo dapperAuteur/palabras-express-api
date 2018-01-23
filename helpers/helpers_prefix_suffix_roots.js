@@ -11,7 +11,7 @@ exports.getPrefixSuffixRoots = function (req, res) {
 }
 
 exports.createPrefixSuffixRoot = function (req, res) {
-  db.PrefixSuffixRoot.find()
+  db.PrefixSuffixRoot.create(req.body)
     .then(function (newPrefixSuffixRoot) {
       res.status(201).json(newPrefixSuffixRoot);
     })

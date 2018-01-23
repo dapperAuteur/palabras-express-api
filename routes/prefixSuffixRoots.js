@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require("../models");
-var helpersPrefixSuffixRoots = require("../helpers/helpers_prefixSuffixRoots");
+var helpersPrefixSuffixRoots = require("../helpers/helpers_prefix_suffix_roots");
 
 router.route('/')
   .get(helpersPrefixSuffixRoots.getPrefixSuffixRoots)
