@@ -1,15 +1,15 @@
 var express = require('express');
 var router = express.Router();
 var db = require("../models");
-var helpers = require("../helpers/palabras");
+var helpersPalabras = require("../helpers/palabras");
 
 router.route('/')
-  .get(helpers.getPalabras)
-  .post(helpers.createPalabras)
+  .get(helpersPalabras.getPalabras)
+  .post(helpersPalabras.createPalabra)
 
 router.route('/:palabraId')
-  .get(helpers.getPalabra)
-  .put(helpers.updatePalabra)
-  .delete(helpers.deletePalabra)
+  .get(helpersPalabras.getPalabra)
+  .put(helpersPalabras.updatePalabra)
+  .delete(helpersPalabras.deletePalabra)
 
 module.exports = router;

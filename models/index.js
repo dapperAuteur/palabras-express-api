@@ -5,3 +5,4 @@ mongoose.connect('mongodb://localhost/palabra-api')
 mongoose.Promise = Promise;
 
 module.exports.Palabra = require("./palabra");
+module.exports.Verbo = require("./verbo");

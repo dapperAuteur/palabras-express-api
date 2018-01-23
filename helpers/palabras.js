@@ -10,7 +10,7 @@ exports.getPalabras = function (req, res) {
     });
 }
 
-exports.createPalabras = function (req, res) {
+exports.createPalabra = function (req, res) {
   db.Palabra.create(req.body)
     .then(function (newPalabra) {
       res.status(201).json(newPalabra);

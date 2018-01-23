@@ -4,6 +4,7 @@ var express = require('express'),
     bodyParser = require('body-parser');
 
 var palabraRoutes = require('./routes/palabras');
+var verboRoutes = require('./routes/verbos');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,6 +14,7 @@ app.get('/', function (req, res) {
 });
 
 app.use('/api/palabras', palabraRoutes);
+app.use('/api/verbos', verboRoutes);
 
 app.listen(port, function () {
   console.log("My App is Running on port " + port);
