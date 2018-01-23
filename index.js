@@ -5,6 +5,7 @@ var express = require('express'),
 
 var palabraRoutes = require('./routes/palabras');
 var verboRoutes = require('./routes/verbos');
+var prefixSuffixRootsRoutes = require('./routes/prefixSuffixRoots');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -15,6 +16,7 @@ app.get('/', function (req, res) {
 
 app.use('/api/palabras', palabraRoutes);
 app.use('/api/verbos', verboRoutes);
+app.use('/api/prefixSuffixRoots', prefixSuffixRootsRoutes);
 
 app.listen(port, function () {
   console.log("My App is Running on port " + port);
