@@ -1,4 +1,4 @@
-export default [
+const prefix_root_suffix = [
  {
    "word": "a, ac, ad, af, ag, al, an, ap, as, at",
    "meaning": "to, toward, near, in addition to, by",
@@ -3135,4 +3135,6 @@ export default [
    "type": "",
    "tongue": ""
  }
-]
+];
+
+module.exports = prefix_root_suffix;

@@ -2416,4 +2416,4 @@ const spanish_words = [
  }
 ];
 
-export default spanish_words;
+module.exports = spanish_words;

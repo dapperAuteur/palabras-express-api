@@ -1,4 +1,4 @@
-export default [
+const four_letter_words = [
  {
    "id": 1,
    "word": "aahs",
@@ -14545,7 +14545,7 @@ export default [
  },
  {
    "id": 2425,
-   "word": null,
+   "word": "null",
    "s_points": 4,
    "f_points": 8
  },
@@ -24011,4 +24011,6 @@ export default [
    "s_points": 18,
    "f_points": 18
  }
-]
+];
+
+module.exports = four_letter_words;

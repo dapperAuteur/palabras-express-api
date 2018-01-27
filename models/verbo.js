@@ -10,19 +10,36 @@ var mongoose = require('mongoose');
 var verboSchema = new mongoose.Schema({
   spanish: {
     type: String,
-    required: "spanish word"
+    required: true,
   },
   english: {
     type: String,
-    required: "english translation"
+    default: ""
   },
   reflexive: {
     type: Boolean,
     default: false
   },
+  irregular: {
+    type: Boolean,
+    default: false
+  },
+  categoría_de_irregular: {
+    type: String,
+    default: ""
+  },
+  cambiar_de_irregular: {
+    type: String,
+    default: ""
+  },
+  terminación: {
+    type: String,
+    default: "-ar"
+  },
   grupo: {
     type: Number,
-    min: 0
+    min: 0,
+    default: 0
   }
 }, {
   timestamps: true

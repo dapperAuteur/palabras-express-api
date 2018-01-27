@@ -20,9 +20,14 @@ var palabraSchema = new mongoose.Schema({
     type: Number,
     min: 0
   },
+  tier: {
+    type: Number,
+    min: 0,
+    default: 3
+  },
   in_game: {
     type: Boolean,
-    default: false
+    default: true
   },
   tongue: {
     type: String,
