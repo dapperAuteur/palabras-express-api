@@ -22,6 +22,8 @@ var prefixSuffixRootSchema = new mongoose.Schema({
     type: String,
     default: "English"
   }
+},{
+  timestamps: true
 });
 
 var PrefixSuffixRoot = mongoose.model('PrefixSuffixRoot', prefixSuffixRootSchema);

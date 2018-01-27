@@ -23,15 +23,9 @@ var verboSchema = new mongoose.Schema({
   grupo: {
     type: Number,
     min: 0
-  },
-  created_date: {
-    type: Date,
-    default: Date.now
-  },
-  updated_date: {
-    type: Date,
-    default: Date.now
   }
+}, {
+  timestamps: true
 });
 
 var Verbo = mongoose.model('Verbo', verboSchema);

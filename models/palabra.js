@@ -27,15 +27,9 @@ var palabraSchema = new mongoose.Schema({
   tongue: {
     type: String,
     default: "English"
-  },
-  created_date: {
-    type: Date,
-    default: Date.now
-  },
-  updated_date: {
-    type: Date,
-    default: Date.now
   }
+}, {
+  timestamps: true
 });
 
 var Palabra = mongoose.model('Palabra', palabraSchema);
