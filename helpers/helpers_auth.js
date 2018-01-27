@@ -13,7 +13,7 @@ exports.signin = function (req, res) {
           profileImageUrl: user.profileImageUrl,
           token
                             });
-      }else {
+      } else {
         res.status(400).json({ message: 'Invalid Email/Password.' })
       }
     })

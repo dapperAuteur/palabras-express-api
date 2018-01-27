@@ -25,10 +25,10 @@ app.get('/', function (req, res) {
 app.use('/api/ver0001/users/:id/games',
         auth.loginRequired, auth.ensureCorrectUser,
         gameRoutes);
-app.use('/api/ver0001/users/',
-        auth.loginRequired, auth.ensureCorrectUser,
+app.use('/api/ver0001/users',
+        auth.loginRequired,
         userRoutes);
-app.use('/api/ver0001/auth/', authRoutes);
+app.use('/api/ver0001/auth', authRoutes);
 // app.get('/api/ver0001/games', function (req, res, next) {
 //   db.Game.find().sort({ createdAt: 'desc' })
 //     .populate("userId", { username: true, profileImageUrl: true })
