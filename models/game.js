@@ -1,7 +1,7 @@
-var mongoose = required("mongoose");
+var mongoose = require("mongoose");
 var User = require("./user");
 
-var gameSchema = new mongoose.gameSchema({
+var gameSchema = new mongoose.Schema({
   attempts: {
     type: Number,
     required: true,

@@ -6,7 +6,7 @@ var helpersGames = require('../helpers/helpers_games');
 // CRUD for games
 router.route('/')
   .get(helpersGames.getGames)
-  .post(helpersGames.createGames)
+  .post(helpersGames.createGame)
 
 router.route('/:gameId')
   .get(helpersGames.getGame)

@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require("../models");
-var helpersUsers = require("../helpers/helpers_uses");
+var helpersUsers = require("../helpers/helpers_users");
 
 router.route('/')
   .get(helpersUsers.getUsers)

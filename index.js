@@ -6,11 +6,12 @@ var express = require('express'),
     authRoutes = require("./routes/auth");
 
 var db = require("./models");
-var palabraRoutes = require('./routes/palabras');
-var verboRoutes = require('./routes/verbos');
-var prefixSuffixRootsRoutes = require('./routes/prefixSuffixRoots');
-var userRoutes = require('./routes/users');
 var authRoutes = require('./routes/auth');
+var gameRoutes = require('./routes/games');
+var palabraRoutes = require('./routes/palabras');
+var prefixSuffixRootRoutes = require('./routes/prefixSuffixRoots');
+var userRoutes = require('./routes/users');
+var verboRoutes = require('./routes/verbos');
 var auth = require('./middleware/auth');
 
 app.use(cors());
@@ -21,9 +22,9 @@ app.get('/', function (req, res) {
   res.send("Hola From Root Route");
 });
 
-app.use('/api/ver0001/users/:id/games/',
+app.use('/api/ver0001/users/:id/games',
         auth.loginRequired, auth.ensureCorrectUser,
-        gamesRoutes);
+        gameRoutes);
 app.use('/api/ver0001/users/',
         auth.loginRequired, auth.ensureCorrectUser,
         userRoutes);
@@ -37,9 +38,10 @@ app.use('/api/ver0001/auth/', authRoutes);
 //       res.status(500).json(err);
 //     })
 // });
+app.use('/api/ver0001/games', gameRoutes);
 app.use('/api/ver0001/palabras', palabraRoutes);
+app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 app.use('/api/ver0001/verbos', verboRoutes);
-app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootsRoutes);
 app.use('/api/ver0001/users', userRoutes);
 
 const PORT = 8081;
