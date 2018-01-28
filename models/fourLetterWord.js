@@ -17,10 +17,12 @@ var fourLetterWordSchema = new mongoose.Schema({
   },
   s_points: {
     type: Number,
+    default: 3,
     min: 0
   },
   f_points: {
     type: Number,
+    default: 3,
     min: 0
   },
   tier: {
@@ -30,7 +32,7 @@ var fourLetterWordSchema = new mongoose.Schema({
   },
   in_game: {
     type: Boolean,
-    default: true
+    default: false
   },
   tongue: {
     type: String,
