@@ -1,5 +1,5 @@
 const db = require("./models");
-const spanish_words = require('./data/spanish_words');
+// const prefix_root_suffix = require('./data/prefix_suffix_root_library');
 
 
 let word = [];
@@ -8,8 +8,8 @@ let word = [];
 
 // console.log(words);
 // will seed data into table/collection
-// for (var i = 0; i < spanish_words.length; i++) {
-//   var p = db.Verbo.create(spanish_words[i]);
+// for (var i = 0; i < prefix_suffix_root.length; i++) {
+//   var p = db.PrefixSuffixRoot.create(prefix_suffix_root[i]);
 //
 // }
 console.log("done");

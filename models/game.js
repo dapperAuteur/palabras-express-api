@@ -24,7 +24,7 @@ var gameSchema = new mongoose.Schema({
   },
   guesses: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Palabra',
+    ref: 'FourLetterWord',
   },
   userId: {
     type: mongoose.Schema.Types.ObjectId,
@@ -38,7 +38,7 @@ var gameSchema = new mongoose.Schema({
   },
   winning_word: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Palabra',
+    ref: 'FourLetterWord',
   },
   won: {
     type: Boolean,

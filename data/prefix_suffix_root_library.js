@@ -1,4 +1,4 @@
-const prefix_root_suffix = [
+const prefix_suffix_root = [
  {
    "word": "a, ac, ad, af, ag, al, an, ap, as, at",
    "meaning": "to, toward, near, in addition to, by",
@@ -3137,4 +3137,4 @@ const prefix_root_suffix = [
  }
 ];
 
-module.exports = prefix_root_suffix;
+module.exports = prefix_suffix_root;

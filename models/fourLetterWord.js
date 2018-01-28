@@ -7,10 +7,13 @@
 // }
 var mongoose = require('mongoose');
 
-var palabraSchema = new mongoose.Schema({
+var fourLetterWordSchema = new mongoose.Schema({
   word: {
     type: String,
     required: 'Word cannot be blank!'
+  },
+  definition: {
+    type: String
   },
   s_points: {
     type: Number,
@@ -37,6 +40,6 @@ var palabraSchema = new mongoose.Schema({
   timestamps: true
 });
 
-var Palabra = mongoose.model('Palabra', palabraSchema);
+var FourLetterWord = mongoose.model('FourLetterWord', fourLetterWordSchema);
 
-module.exports = Palabra;
+module.exports = FourLetterWord;

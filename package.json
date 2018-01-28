@@ -1,5 +1,5 @@
 {
-  "name": "palabras_api",
+  "name": "fourLetterWords_api",
   "version": "1.0.0",
   "description": "express nodejs api for word games and apps",
   "main": "index.js",

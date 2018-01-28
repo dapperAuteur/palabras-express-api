@@ -8,7 +8,7 @@ var express = require('express'),
 var db = require("./models");
 var authRoutes = require('./routes/auth');
 var gameRoutes = require('./routes/games');
-var palabraRoutes = require('./routes/palabras');
+var fourLetterWordRoutes = require('./routes/fourLetterWords');
 var prefixSuffixRootRoutes = require('./routes/prefixSuffixRoots');
 var userRoutes = require('./routes/users');
 var verboRoutes = require('./routes/verbos');
@@ -39,7 +39,7 @@ app.use('/api/ver0001/auth', authRoutes);
 //     })
 // });
 app.use('/api/ver0001/games', gameRoutes);
-app.use('/api/ver0001/palabras', palabraRoutes);
+app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 app.use('/api/ver0001/verbos', verboRoutes);
 app.use('/api/ver0001/users', userRoutes);
