@@ -36,12 +36,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 7,
    "word": "abet",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 8,
    "word": "able",
    "s_points": 6,
@@ -78,48 +80,56 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 14,
    "word": "aced",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 15,
    "word": "aces",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 16,
    "word": "ache",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 17,
    "word": "achy",
    "s_points": 12,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 18,
    "word": "acid",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 19,
    "word": "acme",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 20,
    "word": "acne",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 21,
    "word": "acre",
    "s_points": 6,
@@ -132,6 +142,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 23,
    "word": "acts",
    "s_points": 6,
@@ -144,6 +155,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 25,
    "word": "adds",
    "s_points": 6,
@@ -174,6 +186,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 30,
    "word": "aero",
    "s_points": 4,
@@ -186,6 +199,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 32,
    "word": "afar",
    "s_points": 7,
@@ -204,6 +218,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 35,
    "word": "aged",
    "s_points": 6,
@@ -222,6 +237,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 38,
    "word": "ages",
    "s_points": 5,
@@ -294,18 +310,21 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 50,
    "word": "ahoy",
    "s_points": 10,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 51,
    "word": "aide",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 52,
    "word": "aids",
    "s_points": 5,
@@ -318,6 +337,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 54,
    "word": "aims",
    "s_points": 6,
@@ -336,6 +356,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 57,
    "word": "airs",
    "s_points": 4,
@@ -348,6 +369,7 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 59,
    "word": "airy",
    "s_points": 7,
@@ -360,6 +382,7 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 61,
    "word": "ajar",
    "s_points": 11,
@@ -378,6 +401,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 64,
    "word": "akin",
    "s_points": 8,
@@ -402,6 +426,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 68,
    "word": "alas",
    "s_points": 4,
@@ -438,6 +463,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 74,
    "word": "ales",
    "s_points": 4,
@@ -504,6 +530,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 85,
    "word": "aloe",
    "s_points": 4,
@@ -516,18 +543,21 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 87,
    "word": "alps",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 88,
    "word": "also",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 89,
    "word": "alto",
    "s_points": 4,
@@ -540,6 +570,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 91,
    "word": "alum",
    "s_points": 6,
@@ -564,6 +595,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 95,
    "word": "amen",
    "s_points": 6,
@@ -576,6 +608,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 97,
    "word": "amid",
    "s_points": 7,
@@ -606,6 +639,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 102,
    "word": "ammo",
    "s_points": 8,
@@ -618,6 +652,7 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 104,
    "word": "amps",
    "s_points": 8,
@@ -636,6 +671,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 107,
    "word": "anal",
    "s_points": 4,
@@ -660,6 +696,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 111,
    "word": "anew",
    "s_points": 7,
@@ -720,24 +757,28 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 121,
    "word": "ante",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 122,
    "word": "anti",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 123,
    "word": "ants",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 124,
    "word": "anus",
    "s_points": 4,
@@ -756,18 +797,21 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 127,
    "word": "apes",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 128,
    "word": "apex",
    "s_points": 13,
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 129,
    "word": "apod",
    "s_points": 7,
@@ -780,6 +824,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 131,
    "word": "apps",
    "s_points": 8,
@@ -792,6 +837,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 133,
    "word": "aqua",
    "s_points": 13,
@@ -804,12 +850,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 135,
    "word": "arbs",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 136,
    "word": "arch",
    "s_points": 9,
@@ -822,12 +870,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 138,
    "word": "arcs",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 139,
    "word": "area",
    "s_points": 4,
@@ -852,6 +902,7 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 143,
    "word": "arid",
    "s_points": 5,
@@ -870,24 +921,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 146,
    "word": "arms",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 147,
    "word": "army",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 148,
    "word": "arts",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 149,
    "word": "arty",
    "s_points": 7,
@@ -924,18 +979,21 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 155,
    "word": "ashy",
    "s_points": 10,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 156,
    "word": "asks",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 157,
    "word": "asps",
    "s_points": 6,
@@ -960,12 +1018,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 161,
    "word": "atom",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 162,
    "word": "atop",
    "s_points": 6,
@@ -984,18 +1044,21 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 165,
    "word": "aunt",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 166,
    "word": "aura",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 167,
    "word": "auto",
    "s_points": 4,
@@ -1014,6 +1077,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 170,
    "word": "avid",
    "s_points": 8,
@@ -1026,12 +1090,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 172,
    "word": "avow",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 173,
    "word": "away",
    "s_points": 10,
@@ -1062,24 +1128,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 178,
    "word": "awns",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 179,
    "word": "awny",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 180,
    "word": "awol",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 181,
    "word": "awry",
    "s_points": 10,
@@ -1098,12 +1168,14 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 184,
    "word": "axel",
    "s_points": 11,
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 185,
    "word": "axes",
    "s_points": 11,
@@ -1116,12 +1188,14 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 187,
    "word": "axis",
    "s_points": 11,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 188,
    "word": "axle",
    "s_points": 11,
