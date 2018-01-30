@@ -13,7 +13,8 @@ var fourLetterWordSchema = new mongoose.Schema({
     required: 'Word cannot be blank!'
   },
   definition: {
-    type: String
+    type: String,
+    default: "Please add a definition!"
   },
   s_points: {
     type: Number,

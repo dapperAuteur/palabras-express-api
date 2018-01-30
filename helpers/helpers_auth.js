@@ -24,8 +24,9 @@ exports.signin = function (req, res) {
 
 exports.signup = function (req, res, next) {
   db.User.create(req.body).then(function (user) {
+    console.log(user);
     var token = jwt.sign({ userId: user.id },
-        process.emv.SECRET_KEY);
+        process.env.SECRET_KEY);
         res.status(200).json({
           userId: user.id,
           username: user.username,

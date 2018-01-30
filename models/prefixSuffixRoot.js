@@ -11,6 +11,7 @@ var prefixSuffixRootSchema = new mongoose.Schema({
   },
   meaning: {
     type: String,
+    default: "Please add a definition!"
   },
   examples: {
     type: String

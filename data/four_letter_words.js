@@ -20240,48 +20240,56 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3362,
    "word": "tabs",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3363,
    "word": "tabu",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3364,
    "word": "tace",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3365,
    "word": "tach",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3366,
    "word": "tack",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3367,
    "word": "taco",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3368,
    "word": "tact",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3369,
    "word": "tads",
    "s_points": 5,
@@ -20294,6 +20302,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3371,
    "word": "tags",
    "s_points": 5,
@@ -20306,12 +20315,14 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3373,
    "word": "tail",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3374,
    "word": "tain",
    "s_points": 4,
@@ -20324,6 +20335,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3376,
    "word": "take",
    "s_points": 8,
@@ -20336,12 +20348,14 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3378,
    "word": "talc",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3379,
    "word": "tale",
    "s_points": 4,
@@ -20354,54 +20368,63 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3381,
    "word": "talk",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3382,
    "word": "tall",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3383,
    "word": "tame",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3384,
    "word": "tamp",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3385,
    "word": "tams",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3386,
    "word": "tang",
    "s_points": 5,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3387,
    "word": "tank",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3388,
    "word": "tans",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3389,
    "word": "taos",
    "s_points": 4,
@@ -20414,24 +20437,28 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3391,
    "word": "tape",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3392,
    "word": "taps",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3393,
    "word": "tare",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3394,
    "word": "tarn",
    "s_points": 4,
@@ -20444,24 +20471,28 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3396,
    "word": "tarp",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3397,
    "word": "tars",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3398,
    "word": "tart",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3399,
    "word": "task",
    "s_points": 8,
@@ -20474,24 +20505,28 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3401,
    "word": "tate",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3402,
    "word": "tats",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3403,
    "word": "taus",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3404,
    "word": "taut",
    "s_points": 4,
@@ -20516,36 +20551,42 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3408,
    "word": "taxi",
    "s_points": 11,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3409,
    "word": "teak",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3410,
    "word": "teal",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3411,
    "word": "team",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3412,
    "word": "tear",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3413,
    "word": "teas",
    "s_points": 4,
@@ -20558,24 +20599,28 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3415,
    "word": "tech",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3416,
    "word": "teds",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3417,
    "word": "teed",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3418,
    "word": "teel",
    "s_points": 4,
@@ -20588,12 +20633,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3420,
    "word": "teen",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3421,
    "word": "tees",
    "s_points": 4,
@@ -20612,24 +20659,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3424,
    "word": "tegs",
    "s_points": 5,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3425,
    "word": "tela",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3426,
    "word": "tele",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3427,
    "word": "tell",
    "s_points": 4,
@@ -20642,24 +20693,28 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3429,
    "word": "temp",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3430,
    "word": "tend",
    "s_points": 5,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3431,
    "word": "tens",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3432,
    "word": "tent",
    "s_points": 4,
@@ -20672,6 +20727,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3434,
    "word": "term",
    "s_points": 6,
@@ -20684,6 +20740,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3436,
    "word": "test",
    "s_points": 4,
@@ -20696,18 +20753,21 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3438,
    "word": "tets",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3439,
    "word": "tews",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3440,
    "word": "text",
    "s_points": 11,
@@ -20720,54 +20780,63 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3442,
    "word": "than",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3443,
    "word": "that",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3444,
    "word": "thaw",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3445,
    "word": "thee",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3446,
    "word": "them",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3447,
    "word": "then",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3448,
    "word": "thew",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3449,
    "word": "they",
    "s_points": 10,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3450,
    "word": "thin",
    "s_points": 7,
@@ -20786,114 +20855,133 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3453,
    "word": "this",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3454,
    "word": "thou",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3455,
    "word": "thro",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3456,
    "word": "thru",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3457,
    "word": "thud",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3458,
    "word": "thug",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3459,
    "word": "thus",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3460,
    "word": "tick",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3461,
    "word": "tics",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3462,
    "word": "tide",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3463,
    "word": "tidy",
    "s_points": 8,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3464,
    "word": "tied",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3465,
    "word": "tier",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3466,
    "word": "ties",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3467,
    "word": "tiff",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3468,
    "word": "tike",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3469,
    "word": "tiki",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3470,
    "word": "tile",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3471,
    "word": "till",
    "s_points": 4,
@@ -20906,42 +20994,49 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3473,
    "word": "tilt",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3474,
    "word": "time",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3475,
    "word": "tine",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3476,
    "word": "ting",
    "s_points": 5,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3477,
    "word": "tins",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3478,
    "word": "tint",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3479,
    "word": "tiny",
    "s_points": 7,
@@ -20954,18 +21049,21 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3481,
    "word": "tips",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3482,
    "word": "tire",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3483,
    "word": "tirl",
    "s_points": 4,
@@ -20978,12 +21076,14 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3485,
    "word": "titi",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3486,
    "word": "tits",
    "s_points": 4,
@@ -20996,18 +21096,21 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3488,
    "word": "toad",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3489,
    "word": "toby",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3490,
    "word": "tods",
    "s_points": 5,
@@ -21026,12 +21129,14 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3493,
    "word": "toed",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3494,
    "word": "toes",
    "s_points": 4,
@@ -21044,18 +21149,21 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3496,
    "word": "toft",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3497,
    "word": "tofu",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3498,
    "word": "toga",
    "s_points": 5,
@@ -21068,6 +21176,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3500,
    "word": "toil",
    "s_points": 4,
@@ -21080,6 +21189,7 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3502,
    "word": "toke",
    "s_points": 8,
@@ -21092,6 +21202,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3504,
    "word": "told",
    "s_points": 5,
@@ -21104,6 +21215,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3506,
    "word": "toll",
    "s_points": 4,
@@ -21116,6 +21228,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3508,
    "word": "tomb",
    "s_points": 8,
@@ -21128,54 +21241,63 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3510,
    "word": "toms",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3511,
    "word": "tone",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3512,
    "word": "tong",
    "s_points": 5,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3513,
    "word": "tons",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3514,
    "word": "tony",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3515,
    "word": "took",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3516,
    "word": "tool",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3517,
    "word": "toom",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3518,
    "word": "toon",
    "s_points": 4,
@@ -21188,12 +21310,14 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3520,
    "word": "tope",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3521,
    "word": "toph",
    "s_points": 9,
@@ -21212,6 +21336,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3524,
    "word": "tops",
    "s_points": 6,
@@ -21230,6 +21355,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3527,
    "word": "tore",
    "s_points": 4,
@@ -21242,12 +21368,14 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3529,
    "word": "torn",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3530,
    "word": "toro",
    "s_points": 4,
@@ -21260,12 +21388,14 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3532,
    "word": "tors",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3533,
    "word": "tort",
    "s_points": 4,
@@ -21278,12 +21408,14 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3535,
    "word": "tosh",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3536,
    "word": "toss",
    "s_points": 4,
@@ -21296,36 +21428,42 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3538,
    "word": "tote",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3539,
    "word": "tots",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3540,
    "word": "tour",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3541,
    "word": "tout",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3542,
    "word": "town",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3543,
    "word": "tows",
    "s_points": 7,
@@ -21344,36 +21482,42 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3546,
    "word": "toys",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3547,
    "word": "trad",
    "s_points": 5,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3548,
    "word": "tram",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3549,
    "word": "trap",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3550,
    "word": "tray",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3551,
    "word": "tree",
    "s_points": 4,
@@ -21386,12 +21530,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3553,
    "word": "trek",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3554,
    "word": "tres",
    "s_points": 4,
@@ -21404,30 +21550,35 @@ const four_letter_words = [
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3556,
    "word": "trey",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3557,
    "word": "trig",
    "s_points": 5,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3558,
    "word": "trim",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3559,
    "word": "trio",
    "s_points": 4,
    "f_points": 4
  },
  {
+   "tier": 0,
    "id": 3560,
    "word": "trip",
    "s_points": 6,
@@ -21446,12 +21597,14 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3563,
    "word": "trop",
    "s_points": 6,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3564,
    "word": "trot",
    "s_points": 4,
@@ -21464,12 +21617,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3566,
    "word": "troy",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3567,
    "word": "TRUE",
    "s_points": 4,
@@ -21482,6 +21637,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3569,
    "word": "tsar",
    "s_points": 4,
@@ -21494,24 +21650,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3571,
    "word": "tuba",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3572,
    "word": "tube",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3573,
    "word": "tubs",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3574,
    "word": "tuck",
    "s_points": 10,
@@ -21524,18 +21684,21 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3576,
    "word": "tuff",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3577,
    "word": "tuft",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3578,
    "word": "tugs",
    "s_points": 5,
@@ -21548,84 +21711,98 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3580,
    "word": "tule",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3581,
    "word": "tump",
    "s_points": 8,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3582,
    "word": "tuna",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3583,
    "word": "tune",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3584,
    "word": "tung",
    "s_points": 5,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3585,
    "word": "tuns",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3586,
    "word": "tups",
    "s_points": 6,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3587,
    "word": "turf",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3588,
    "word": "turk",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3589,
    "word": "turn",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3590,
    "word": "tush",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3591,
    "word": "tusk",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3592,
    "word": "tuts",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3593,
    "word": "tutu",
    "s_points": 4,
@@ -21638,6 +21815,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3595,
    "word": "twas",
    "s_points": 7,
@@ -21650,24 +21828,28 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3597,
    "word": "twig",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3598,
    "word": "twin",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3599,
    "word": "twit",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3600,
    "word": "twos",
    "s_points": 7,
@@ -21698,6 +21880,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3605,
    "word": "tyke",
    "s_points": 11,
@@ -21710,12 +21893,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3607,
    "word": "type",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3608,
    "word": "typo",
    "s_points": 9,
@@ -21746,6 +21931,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3613,
    "word": "tzar",
    "s_points": 13,
@@ -21770,6 +21956,7 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3617,
    "word": "ugly",
    "s_points": 8,
@@ -21788,6 +21975,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3620,
    "word": "ulna",
    "s_points": 4,
@@ -21800,6 +21988,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3622,
    "word": "ulva",
    "s_points": 7,
@@ -21812,6 +22001,7 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3624,
    "word": "umps",
    "s_points": 8,
@@ -21854,24 +22044,28 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3631,
    "word": "undo",
    "s_points": 5,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3632,
    "word": "undy",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3633,
    "word": "unit",
    "s_points": 4,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3634,
    "word": "unto",
    "s_points": 4,
@@ -21884,24 +22078,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3636,
    "word": "upby",
    "s_points": 11,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3637,
    "word": "updo",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3638,
    "word": "upon",
    "s_points": 6,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3639,
    "word": "urbs",
    "s_points": 6,
@@ -21920,6 +22118,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3642,
    "word": "urge",
    "s_points": 5,
@@ -21932,6 +22131,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3644,
    "word": "urns",
    "s_points": 4,
@@ -21956,18 +22156,21 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3648,
    "word": "used",
    "s_points": 5,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3649,
    "word": "user",
    "s_points": 4,
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3650,
    "word": "uses",
    "s_points": 4,
@@ -21980,6 +22183,7 @@ const four_letter_words = [
    "f_points": 5
  },
  {
+   "tier": 0,
    "id": 3652,
    "word": "utes",
    "s_points": 4,
@@ -21998,18 +22202,21 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3655,
    "word": "vagi",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3656,
    "word": "vail",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3657,
    "word": "vain",
    "s_points": 7,
@@ -22022,12 +22229,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3659,
    "word": "vale",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3660,
    "word": "vamp",
    "s_points": 11,
@@ -22046,6 +22255,7 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3663,
    "word": "vans",
    "s_points": 7,
@@ -22076,18 +22286,21 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3668,
    "word": "vase",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3669,
    "word": "vast",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3670,
    "word": "vats",
    "s_points": 7,
@@ -22118,12 +22331,14 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3675,
    "word": "veal",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3676,
    "word": "veep",
    "s_points": 9,
@@ -22142,12 +22357,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3679,
    "word": "veil",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3680,
    "word": "vein",
    "s_points": 7,
@@ -22172,12 +22389,14 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3684,
    "word": "vend",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3685,
    "word": "vent",
    "s_points": 7,
@@ -22190,6 +22409,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3687,
    "word": "verb",
    "s_points": 9,
@@ -22202,24 +22422,28 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3689,
    "word": "very",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3690,
    "word": "vest",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3691,
    "word": "veto",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3692,
    "word": "vets",
    "s_points": 7,
@@ -22232,18 +22456,21 @@ const four_letter_words = [
    "f_points": 15
  },
  {
+   "tier": 0,
    "id": 3694,
    "word": "vial",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3695,
    "word": "vibe",
    "s_points": 9,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3696,
    "word": "vice",
    "s_points": 9,
@@ -22256,12 +22483,14 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3698,
    "word": "vids",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3699,
    "word": "vied",
    "s_points": 8,
@@ -22274,12 +22503,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3701,
    "word": "vies",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3702,
    "word": "view",
    "s_points": 10,
@@ -22292,12 +22523,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3704,
    "word": "vigs",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3705,
    "word": "vile",
    "s_points": 7,
@@ -22310,6 +22543,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3707,
    "word": "vims",
    "s_points": 9,
@@ -22322,12 +22556,14 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3709,
    "word": "vine",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3710,
    "word": "vino",
    "s_points": 7,
@@ -22352,18 +22588,21 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3714,
    "word": "visa",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3715,
    "word": "vise",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3716,
    "word": "vita",
    "s_points": 7,
@@ -22376,18 +22615,21 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3718,
    "word": "vive",
    "s_points": 10,
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3719,
    "word": "voes",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3720,
    "word": "void",
    "s_points": 8,
@@ -22400,18 +22642,21 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3722,
    "word": "volt",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3723,
    "word": "vote",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3724,
    "word": "vows",
    "s_points": 10,
@@ -22448,12 +22693,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3730,
    "word": "wack",
    "s_points": 13,
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3731,
    "word": "wade",
    "s_points": 8,
@@ -22466,6 +22713,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3733,
    "word": "wads",
    "s_points": 8,
@@ -22490,18 +22738,21 @@ const four_letter_words = [
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3737,
    "word": "waft",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3738,
    "word": "wage",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3739,
    "word": "wags",
    "s_points": 8,
@@ -22514,12 +22765,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3741,
    "word": "wail",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3742,
    "word": "wain",
    "s_points": 7,
@@ -22532,12 +22785,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3744,
    "word": "wait",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3745,
    "word": "wake",
    "s_points": 11,
@@ -22550,12 +22805,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3747,
    "word": "walk",
    "s_points": 11,
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3748,
    "word": "wall",
    "s_points": 7,
@@ -22574,12 +22831,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3751,
    "word": "wand",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3752,
    "word": "wane",
    "s_points": 7,
@@ -22592,6 +22851,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3754,
    "word": "want",
    "s_points": 7,
@@ -22604,18 +22864,21 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3756,
    "word": "waps",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3757,
    "word": "ward",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3758,
    "word": "ware",
    "s_points": 7,
@@ -22628,30 +22891,35 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3760,
    "word": "warm",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3761,
    "word": "warn",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3762,
    "word": "warp",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3763,
    "word": "wars",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3764,
    "word": "wart",
    "s_points": 7,
@@ -22664,12 +22932,14 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3766,
    "word": "wash",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3767,
    "word": "wasp",
    "s_points": 9,
@@ -22682,12 +22952,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3769,
    "word": "wats",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3770,
    "word": "watt",
    "s_points": 7,
@@ -22712,12 +22984,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3774,
    "word": "wave",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3775,
    "word": "wavy",
    "s_points": 13,
@@ -22736,18 +23010,21 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3778,
    "word": "waxy",
    "s_points": 17,
    "f_points": 16
  },
  {
+   "tier": 0,
    "id": 3779,
    "word": "ways",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3780,
    "word": "weak",
    "s_points": 11,
@@ -22760,36 +23037,42 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3782,
    "word": "wean",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3783,
    "word": "wear",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3784,
    "word": "webs",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3785,
    "word": "weds",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3786,
    "word": "weed",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3787,
    "word": "week",
    "s_points": 11,
@@ -22802,12 +23085,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3789,
    "word": "ween",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3790,
    "word": "weep",
    "s_points": 9,
@@ -22850,18 +23135,21 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3797,
    "word": "weld",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3798,
    "word": "well",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3799,
    "word": "welt",
    "s_points": 7,
@@ -22880,18 +23168,21 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3802,
    "word": "went",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3803,
    "word": "wept",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3804,
    "word": "were",
    "s_points": 7,
@@ -22904,6 +23195,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3806,
    "word": "west",
    "s_points": 7,
@@ -22916,6 +23208,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3808,
    "word": "wham",
    "s_points": 12,
@@ -22928,6 +23221,7 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3810,
    "word": "what",
    "s_points": 10,
@@ -22940,6 +23234,7 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3812,
    "word": "when",
    "s_points": 10,
@@ -22958,6 +23253,7 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3815,
    "word": "whey",
    "s_points": 13,
@@ -22970,12 +23266,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3817,
    "word": "whig",
    "s_points": 11,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3818,
    "word": "whim",
    "s_points": 12,
@@ -22988,6 +23286,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3820,
    "word": "whip",
    "s_points": 12,
@@ -23006,18 +23305,21 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3823,
    "word": "whiz",
    "s_points": 19,
    "f_points": 18
  },
  {
+   "tier": 0,
    "id": 3824,
    "word": "whoa",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3825,
    "word": "whom",
    "s_points": 12,
@@ -23048,30 +23350,35 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3830,
    "word": "wick",
    "s_points": 13,
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3831,
    "word": "wide",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3832,
    "word": "wife",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3833,
    "word": "wigs",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3834,
    "word": "wild",
    "s_points": 8,
@@ -23084,12 +23391,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3836,
    "word": "will",
    "s_points": 7,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3837,
    "word": "wilt",
    "s_points": 7,
@@ -23102,30 +23411,35 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3839,
    "word": "wimp",
    "s_points": 11,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3840,
    "word": "wind",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3841,
    "word": "wine",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3842,
    "word": "wing",
    "s_points": 8,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3843,
    "word": "wink",
    "s_points": 11,
@@ -23138,6 +23452,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3845,
    "word": "wins",
    "s_points": 7,
@@ -23150,12 +23465,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3847,
    "word": "wipe",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3848,
    "word": "wire",
    "s_points": 7,
@@ -23168,18 +23485,21 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3850,
    "word": "wise",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3851,
    "word": "wish",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3852,
    "word": "wisp",
    "s_points": 9,
@@ -23204,18 +23524,21 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3856,
    "word": "with",
    "s_points": 10,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3857,
    "word": "wits",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3858,
    "word": "wive",
    "s_points": 10,
@@ -23228,12 +23551,14 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3860,
    "word": "woes",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3861,
    "word": "woke",
    "s_points": 11,
@@ -23252,48 +23577,56 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3864,
    "word": "wolf",
    "s_points": 10,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3865,
    "word": "womb",
    "s_points": 11,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3866,
    "word": "wonk",
    "s_points": 11,
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3867,
    "word": "wons",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3868,
    "word": "wont",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3869,
    "word": "wood",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3870,
    "word": "woof",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3871,
    "word": "wool",
    "s_points": 7,
@@ -23306,30 +23639,35 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3873,
    "word": "word",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3874,
    "word": "wore",
    "s_points": 7,
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3875,
    "word": "work",
    "s_points": 11,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3876,
    "word": "worm",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3877,
    "word": "worn",
    "s_points": 7,
@@ -23360,18 +23698,21 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3882,
    "word": "wows",
    "s_points": 10,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3883,
    "word": "wrap",
    "s_points": 9,
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3884,
    "word": "wren",
    "s_points": 7,
@@ -23438,6 +23779,7 @@ const four_letter_words = [
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3895,
    "word": "yack",
    "s_points": 13,
@@ -23462,6 +23804,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3899,
    "word": "yaks",
    "s_points": 11,
@@ -23474,30 +23817,35 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3901,
    "word": "yams",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3902,
    "word": "yang",
    "s_points": 8,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3903,
    "word": "yank",
    "s_points": 11,
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3904,
    "word": "yaps",
    "s_points": 9,
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3905,
    "word": "yard",
    "s_points": 8,
@@ -23510,6 +23858,7 @@ const four_letter_words = [
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3907,
    "word": "yarn",
    "s_points": 7,
@@ -23534,6 +23883,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3911,
    "word": "yawn",
    "s_points": 10,
@@ -23558,6 +23908,7 @@ const four_letter_words = [
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3915,
    "word": "yeah",
    "s_points": 10,
@@ -23570,6 +23921,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3917,
    "word": "year",
    "s_points": 7,
@@ -23606,12 +23958,14 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3923,
    "word": "yell",
    "s_points": 7,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3924,
    "word": "yelp",
    "s_points": 9,
@@ -23636,6 +23990,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3928,
    "word": "yeti",
    "s_points": 7,
@@ -23726,6 +24081,7 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3943,
    "word": "yoga",
    "s_points": 8,
@@ -23738,12 +24094,14 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3945,
    "word": "yogi",
    "s_points": 8,
    "f_points": 8
  },
  {
+   "tier": 0,
    "id": 3946,
    "word": "yoke",
    "s_points": 11,
@@ -23756,6 +24114,7 @@ const four_letter_words = [
    "f_points": 10
  },
  {
+   "tier": 0,
    "id": 3948,
    "word": "yolk",
    "s_points": 11,
@@ -23774,12 +24133,14 @@ const four_letter_words = [
    "f_points": 7
  },
  {
+   "tier": 0,
    "id": 3951,
    "word": "yore",
    "s_points": 7,
    "f_points": 6
  },
  {
+   "tier": 0,
    "id": 3952,
    "word": "your",
    "s_points": 7,
@@ -23828,6 +24189,7 @@ const four_letter_words = [
    "f_points": 12
  },
  {
+   "tier": 0,
    "id": 3960,
    "word": "yuck",
    "s_points": 13,
@@ -23846,6 +24208,7 @@ const four_letter_words = [
    "f_points": 11
  },
  {
+   "tier": 0,
    "id": 3963,
    "word": "yule",
    "s_points": 7,
@@ -23876,6 +24239,7 @@ const four_letter_words = [
    "f_points": 9
  },
  {
+   "tier": 0,
    "id": 3968,
    "word": "zags",
    "s_points": 14,
@@ -23888,6 +24252,7 @@ const four_letter_words = [
    "f_points": 16
  },
  {
+   "tier": 0,
    "id": 3970,
    "word": "zaps",
    "s_points": 15,
@@ -23900,6 +24265,7 @@ const four_letter_words = [
    "f_points": 16
  },
  {
+   "tier": 0,
    "id": 3972,
    "word": "zeal",
    "s_points": 13,
@@ -23948,24 +24314,28 @@ const four_letter_words = [
    "f_points": 17
  },
  {
+   "tier": 0,
    "id": 3980,
    "word": "zero",
    "s_points": 13,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3981,
    "word": "zest",
    "s_points": 13,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3982,
    "word": "zeta",
    "s_points": 13,
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3983,
    "word": "zigs",
    "s_points": 14,
@@ -23978,6 +24348,7 @@ const four_letter_words = [
    "f_points": 15
  },
  {
+   "tier": 0,
    "id": 3985,
    "word": "zinc",
    "s_points": 15,
@@ -23990,6 +24361,7 @@ const four_letter_words = [
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3987,
    "word": "zing",
    "s_points": 14,
@@ -24002,6 +24374,7 @@ const four_letter_words = [
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3989,
    "word": "zips",
    "s_points": 15,
@@ -24014,6 +24387,7 @@ const four_letter_words = [
    "f_points": 13
  },
  {
+   "tier": 0,
    "id": 3991,
    "word": "zits",
    "s_points": 13,
@@ -24038,18 +24412,21 @@ const four_letter_words = [
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3995,
    "word": "zone",
    "s_points": 13,
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3996,
    "word": "zonk",
    "s_points": 17,
    "f_points": 18
  },
  {
+   "tier": 0,
    "id": 3997,
    "word": "zoom",
    "s_points": 15,
@@ -24062,6 +24439,7 @@ const four_letter_words = [
    "f_points": 14
  },
  {
+   "tier": 0,
    "id": 3999,
    "word": "zoos",
    "s_points": 13,
