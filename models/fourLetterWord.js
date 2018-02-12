@@ -7,6 +7,8 @@
 // }
 var mongoose = require('mongoose');
 
+var mongoosePaginate = require('mongoose-paginate');
+
 var fourLetterWordSchema = new mongoose.Schema({
   word: {
     type: String,
@@ -42,6 +44,8 @@ var fourLetterWordSchema = new mongoose.Schema({
 }, {
   timestamps: true
 });
+
+fourLetterWordSchema.plugin(mongoosePaginate);
 
 var FourLetterWord = mongoose.model('FourLetterWord', fourLetterWordSchema);
 

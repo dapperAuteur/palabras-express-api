@@ -22,10 +22,10 @@ var gameSchema = new mongoose.Schema({
     min: 0,
     max: 4
   },
-  guesses: {
+  guesses: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'FourLetterWord',
-  },
+  }],
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",

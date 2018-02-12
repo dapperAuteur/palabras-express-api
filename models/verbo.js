@@ -7,6 +7,8 @@
 // }
 var mongoose = require('mongoose');
 
+var mongoosePaginate = require('mongoose-paginate');
+
 var verboSchema = new mongoose.Schema({
   spanish: {
     type: String,
@@ -44,6 +46,8 @@ var verboSchema = new mongoose.Schema({
 }, {
   timestamps: true
 });
+
+verboSchema.plugin(mongoosePaginate);
 
 var Verbo = mongoose.model('Verbo', verboSchema);
 

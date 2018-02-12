@@ -4,6 +4,8 @@
 // "type": ""
 var mongoose = require('mongoose');
 
+var mongoosePaginate = require('mongoose-paginate');
+
 var prefixSuffixRootSchema = new mongoose.Schema({
   word: {
     type: String,
@@ -26,6 +28,8 @@ var prefixSuffixRootSchema = new mongoose.Schema({
 },{
   timestamps: true
 });
+
+prefixSuffixRootSchema.plugin(mongoosePaginate);
 
 var PrefixSuffixRoot = mongoose.model('PrefixSuffixRoot', prefixSuffixRootSchema);
 

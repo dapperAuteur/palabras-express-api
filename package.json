@@ -24,7 +24,9 @@
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.1",
-    "mongoose": "^5.0.1"
+    "mongoose": "^5.0.1",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^1.14.12"
   },
   "devDependencies": {
     "jasmine": "^2.9.0"

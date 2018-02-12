@@ -1,6 +1,8 @@
 var mongoose = require("mongoose");
 var bcrypt = require("bcryptjs");
 
+// var mongoosePaginate = require('mongoose-paginate');
+
 var userSchema = new mongoose.Schema({
   email: {
     type: String,
@@ -41,6 +43,8 @@ userSchema.pre('save', function (next) {
     return next(err)
   });
 });
+
+// userSchema.plugin(mongoosePaginate);
 
 userSchema.methods.comparePassword = function (candidatePassword, next) {
   bcrypt.compare(candidatePassword, this.password, function (err, isMatch) {
