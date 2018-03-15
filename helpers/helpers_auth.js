@@ -10,6 +10,7 @@ exports.signin = function (req, res) {
         res.status(200).json({
           userId: user.id,
           username: user.username,
+          userRole: user.role,
           profileImageUrl: user.profileImageUrl,
           token
                             });
@@ -30,6 +31,7 @@ exports.signup = function (req, res, next) {
         res.status(200).json({
           userId: user.id,
           username: user.username,
+          userRole: user.role,
           profileImageUrl: user.profileImageUrl,
           token
                             });

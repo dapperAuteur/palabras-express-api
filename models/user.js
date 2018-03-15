@@ -9,6 +9,12 @@ var userSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
+  role: {
+    type: Number,
+    required: true,
+    default: 1,
+    min: 0
+  },
   username: {
     type: String,
     required: true,
