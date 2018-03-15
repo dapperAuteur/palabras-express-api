@@ -58,9 +58,9 @@ app.post('/api/ver0001/verbos/', verboRoutes, auth.ensureCorrectRole);
 app.put('/api/ver0001/verbos/:id', verboRoutes, auth.ensureCorrectRole);
 app.delete('/api/ver0001/verbos/:id', verboRoutes, auth.ensureCorrectRole);
 app.use('/api/ver0001/users', userRoutes);
-// app.post('/api/ver0001/users/', userRoutes, auth.ensureCorrectRole);
-// app.put('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
-// app.delete('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
+app.post('/api/ver0001/users/', userRoutes, auth.ensureCorrectRole);
+app.put('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
+app.delete('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
 
 const PORT = 8081;
 
