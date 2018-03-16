@@ -6,7 +6,7 @@ mongoose.Promise = global.Promise;
 //   reconnectTries: Number.MAX_VALUE,
 //   useMongoClient: true
 // });
-mongoose.connect('MONGODB_URI', {
+mongoose.connect(process.env.MONGODB_URI, {
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE,
   useMongoClient: true
