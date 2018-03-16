@@ -39,29 +39,29 @@ app.use('/api/ver0001/auth', authRoutes);
 //     })
 // });
 app.use('/api/ver0001/games', gameRoutes);
-app.post('/api/ver0001/games/', gameRoutes, auth.ensureCorrectRole);
-app.put('/api/ver0001/games/:id', gameRoutes, auth.ensureCorrectRole);
-app.delete('/api/ver0001/games/:id', gameRoutes, auth.ensureCorrectRole);
+app.post('/api/ver0001/games/', gameRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.put('/api/ver0001/games/:id', gameRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.delete('/api/ver0001/games/:id', gameRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
-app.post('/api/ver0001/fourLetterWords/', fourLetterWordRoutes, auth.ensureCorrectRole);
-app.put('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.ensureCorrectRole);
-app.delete('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.ensureCorrectRole);
+app.post('/api/ver0001/fourLetterWords/', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.put('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.delete('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
-app.post('/api/ver0001/prefixSuffixRoots/', prefixSuffixRootRoutes, auth.ensureCorrectRole);
-app.put('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes, auth.ensureCorrectRole);
-app.delete('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes, auth.ensureCorrectRole);
+app.post('/api/ver0001/prefixSuffixRoots/', prefixSuffixRootRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.put('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.delete('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 app.use('/api/ver0001/verbos', verboRoutes);
-app.post('/api/ver0001/verbos/', verboRoutes, auth.ensureCorrectRole);
-app.put('/api/ver0001/verbos/:id', verboRoutes, auth.ensureCorrectRole);
-app.delete('/api/ver0001/verbos/:id', verboRoutes, auth.ensureCorrectRole);
-app.use('/api/ver0001/users', userRoutes);
-app.get('/api/ver0001/users/', userRoutes, auth.ensureCorrectRole);
-// app.post('/api/ver0001/users/', userRoutes, auth.ensureCorrectRole);
-app.put('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
-app.delete('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
+app.post('/api/ver0001/verbos/', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.put('/api/ver0001/verbos/:id', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.delete('/api/ver0001/verbos/:id', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.use('/api/ver0001/users', userRoutes, auth.loginRequired);
+app.get('/api/ver0001/users/', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+// app.post('/api/ver0001/users/', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.put('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.delete('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 const PORT = process.env.PORT || 8081;
 
