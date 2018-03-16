@@ -62,7 +62,7 @@ app.post('/api/ver0001/users/', userRoutes, auth.ensureCorrectRole);
 app.put('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
 app.delete('/api/ver0001/users/:id', userRoutes, auth.ensureCorrectRole);
 
-const PORT = 8081;
+const PORT = process.env.PORT || 8081;
 
 app.listen(PORT, function () {
   console.log(`My App is Running on port ${PORT}`);
