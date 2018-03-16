@@ -57,11 +57,11 @@ app.use('/api/ver0001/verbos', verboRoutes);
 app.post('/api/ver0001/verbos/', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
 app.put('/api/ver0001/verbos/:id', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
 app.delete('/api/ver0001/verbos/:id', verboRoutes, auth.loginRequired, auth.ensureCorrectRole);
-app.use('/api/ver0001/users', userRoutes, auth.loginRequired);
-app.get('/api/ver0001/users/', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+// app.use('/api/ver0001/users', userRoutes, auth.loginRequired);
+// app.get('/api/ver0001/users/', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
 // app.post('/api/ver0001/users/', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
-app.put('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
-app.delete('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+// app.put('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
+// app.delete('/api/ver0001/users/:id', userRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 const PORT = process.env.PORT || 8081;
 
