@@ -44,9 +44,9 @@ app.put('/api/ver0001/games/:id', gameRoutes, auth.loginRequired, auth.ensureCor
 app.delete('/api/ver0001/games/:id', gameRoutes, auth.loginRequired, auth.ensureCorrectRole);
 
 app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
-app.post('/api/ver0001/fourLetterWords/', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
-app.put('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
-app.delete('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes, auth.loginRequired, auth.ensureCorrectRole);
+app.post('/api/ver0001/fourLetterWords/', fourLetterWordRoutes auth.ensureCorrectRole);
+app.put('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes auth.ensureCorrectRole);
+app.delete('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes auth.ensureCorrectRole);
 
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 app.post('/api/ver0001/prefixSuffixRoots/', prefixSuffixRootRoutes, auth.loginRequired, auth.ensureCorrectRole);
