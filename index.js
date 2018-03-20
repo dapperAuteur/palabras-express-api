@@ -68,9 +68,9 @@ app.use('/api/ver0001/verbos', verboRoutes);
 
 app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.post('/api/ver0001/users/', auth.ensureCorrectRole, userRoutes);
-app.put('/api/ver0001/users/:id', userRoutes);
+app.put('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.use('/api/ver0001/users', userRoutes);
+app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 const PORT = process.env.PORT || 8081;
 
