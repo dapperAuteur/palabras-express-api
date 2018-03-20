@@ -32,7 +32,10 @@ exports.updateUser = function (req, res) {
 exports.deleteUser = function (req, res) {
   db.User.remove({ _id: req.params.userId })
     .then(function () {
-      res.json({ message: "User Deleted!"});
+      res.json({
+        message: `User ${req.params.userId} deleted`,
+        userId: req.params.userId
+      });
     })
     .catch(function (err) {
       res.send(err);

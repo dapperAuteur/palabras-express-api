@@ -43,7 +43,10 @@ exports.updateFourLetterWord = function (req, res) {
 exports.deleteFourLetterWord = function (req, res) {
   db.FourLetterWord.remove({ _id: req.params.fourLetterWordId })
     .then(function () {
-      res.json({ message: "FourLetterWord Deleted!"});
+      res.json({
+        message: `fourLetterWord ${req.params.fourLetterWordId} deleted`,
+        fourLetterWordId: req.params.fourLetterWordId
+      });
     })
     .catch(function (err) {
       res.send(err);

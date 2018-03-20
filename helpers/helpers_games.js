@@ -58,7 +58,10 @@ exports.updateGame = function (req, res) {
 exports.deleteGame = function (req, res) {
   db.Game.remove({ _id: req.params.gameId })
     .then(function () {
-      res.json({ message: "Game Deleted!"});
+      res.json({
+        message: `Game ${req.params.gameId} deleted`,
+        gameId: req.params.gameId
+      });
     })
     .catch(function (err) {
       res.send(err);

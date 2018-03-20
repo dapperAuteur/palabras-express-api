@@ -43,7 +43,10 @@ exports.updatePrefixSuffixRoot = function (req, res) {
 exports.deletePrefixSuffixRoot = function (req, res) {
   db.PrefixSuffixRoot.remove({ _id: req.params.prefixSuffixRootId })
     .then(function () {
-      res.json({ message: "PrefixSuffixRoot Deleted!" });
+      res.json({
+        message: `PrefixSuffixRoot ${req.params.prefixSuffixRootId} deleted`,
+        prefixSuffixRootId: req.params.prefixSuffixRootId
+      });
     })
     .catch(function (err) {
       res.send(err);

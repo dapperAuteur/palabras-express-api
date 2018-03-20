@@ -13,6 +13,7 @@ var prefixSuffixRootRoutes = require('./routes/prefixSuffixRoots');
 var userRoutes = require('./routes/users');
 var verboRoutes = require('./routes/verbos');
 var auth = require('./middleware/auth');
+const errorHandler = require("./handlers/error");
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -72,6 +73,14 @@ app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 const PORT = process.env.PORT || 8081;
+
+app.use(function (req, res, next) {
+  let err = new Error("Not Found");
+  err.status = 404;
+  next(err);
+});
+
+app.use(errorHandler);
 
 app.listen(PORT, function () {
   console.log(`My App is Running on port ${PORT}`);
