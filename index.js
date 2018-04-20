@@ -23,6 +23,12 @@ app.get('/', function (req, res) {
   res.send("Hola From Root Route");
 });
 
+app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+app.post('/api/ver0001/users/', userRoutes);
+app.put('/api/ver0001/users/:id', userRoutes);
+app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
+
 app.use('/api/ver0001/users/:id/games',
         auth.loginRequired,
         gameRoutes);

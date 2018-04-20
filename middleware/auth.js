@@ -1,6 +1,7 @@
 require('dotenv').load()
 var jwt = require("jsonwebtoken")
 
+
 exports.loginRequired = function (req, res, next) {
   try {
     var token = req.headers.authorization.split(" ")[1]
@@ -31,14 +32,44 @@ exports.ensureCorrectUser = function (req, res, next) {
   }
 }
 
+// exports.ensureCorrectRole = function (req, res, next) {
+//   try {
+//     var token = req.headers.authorization.split(" ")[1]
+//     jwt.verify(token, process.env.SECRET_KEY, function (err, decoded) {
+//       if (decoded && req.body.userRole === 0) {
+//         next();
+//       } else {
+//         res.status(401).json({ message: "Must be an admin to perform this action." })
+//       }
+//     })
+//   } catch (e) {
+//     res.status(401).json({ message: "Please login." })
+//   }
+// }
+
 exports.ensureCorrectRole = function (req, res, next) {
   try {
     var token = req.headers.authorization.split(" ")[1]
     jwt.verify(token, process.env.SECRET_KEY, function (err, decoded) {
-      if (decoded && req.body.userRole === 0) {
-        next();
+      if (decoded) {
+
+        if (decoded.userId) {
+          console.log(decoded.userId);
+          next();
+        } else {
+          console.log(decoded.userId);
+          res.status(401).json({
+            message: "Must be an admin to perform this action.",
+            decoded: decoded,
+            id: decoded.userId
+          })
+        }
       } else {
-        res.status(401).json({ message: "Must be an admin to perform this action." })
+        res.status(401).json({
+          message: "Please login.",
+          decoded: decoded,
+          id: decoded.userId
+        });
       }
     })
   } catch (e) {

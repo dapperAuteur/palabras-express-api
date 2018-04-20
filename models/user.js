@@ -12,7 +12,7 @@ var userSchema = new mongoose.Schema({
   role: {
     type: Number,
     required: true,
-    default: 1,
+    default: 3,
     min: 0
   },
   username: {
