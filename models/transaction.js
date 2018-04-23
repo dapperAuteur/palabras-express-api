@@ -6,6 +6,10 @@ var transactionSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  account: {
+    type: String,
+    required: true
+  },
   dateTime: {
     type: String,
     required: false
