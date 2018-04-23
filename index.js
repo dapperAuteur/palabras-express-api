@@ -11,6 +11,7 @@ var fourLetterWordRoutes = require('./routes/fourLetterWords');
 var gameRoutes = require('./routes/games');
 var postRoutes = require('./routes/posts');
 var prefixSuffixRootRoutes = require('./routes/prefixSuffixRoots');
+var transactionRoutes = require('./routes/transactions');
 var userRoutes = require('./routes/users');
 var verboRoutes = require('./routes/verbos');
 var auth = require('./middleware/auth');
@@ -24,11 +25,11 @@ app.get('/', function (req, res) {
   res.send("Hola From Root Route");
 });
 
-app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.post('/api/ver0001/users/', userRoutes);
-app.put('/api/ver0001/users/:id', userRoutes);
-app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
+// app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+// app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+// app.post('/api/ver0001/users/', userRoutes);
+// app.put('/api/ver0001/users/:id', userRoutes);
+// app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 app.use('/api/ver0001/users/:id/games',
         auth.loginRequired,
@@ -71,6 +72,21 @@ app.post('/api/ver0001/prefixSuffixRoots/', auth.ensureCorrectRole, prefixSuffix
 app.put('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 
+app.use('/api/ver0001/users/:id/transactions',
+        transactionRoutes);
+
+app.get('/api/ver0001/transactions/:id', transactionRoutes);
+app.delete('/api/ver0001/transactions/:id', transactionRoutes);
+app.post('/api/ver0001/transactions/', transactionRoutes);
+app.put('/api/ver0001/transactions/:id', transactionRoutes);
+app.use('/api/ver0001/transactions/', transactionRoutes);
+
+app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+app.post('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
+app.put('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
+app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
+
 // app.use('/api/ver0001/verbos/:id', verboRoutes);
 app.delete('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.get('/api/ver0001/verbos', verboRoutes);
@@ -78,12 +94,6 @@ app.get('/api/ver0001/verbos/:id', verboRoutes);
 app.post('/api/ver0001/verbos/', auth.ensureCorrectRole, verboRoutes);
 app.put('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.use('/api/ver0001/verbos', verboRoutes);
-
-app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.post('/api/ver0001/users/', auth.ensureCorrectRole, userRoutes);
-app.put('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 const PORT = process.env.PORT || 8081;
 

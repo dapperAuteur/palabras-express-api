@@ -32,9 +32,9 @@ var postSchema = new mongoose.Schema({
 });
 
 postSchema.pre('save', function (next) {
-  var user = this;
+  var post = this;
   if (!post.isModified('password')) return next();
-  bcrypt.hash(post.password, 10).then(function functionName(hashedPassword) {
+  bcrypt.hash(post.password, 10).then(function (hashedPassword) {
     post.password = hashedPassword
     next();
   }, function (err) {
@@ -42,8 +42,8 @@ postSchema.pre('save', function (next) {
   });
 });
 
-postSchema.methods.comparePassword = function (postCandidatePassword, next) {
-  bcrypt.compare(postCandidatePassword, this.password, function (err, isMatch) {
+postSchema.methods.comparePassword = function (postPassword, next) {
+  bcrypt.compare(postPassword, this.password, function (err, isMatch) {
     if (err) return next(err);
     next(null, isMatch);
   });
