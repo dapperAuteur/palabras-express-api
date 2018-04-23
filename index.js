@@ -48,38 +48,42 @@ app.use('/api/ver0001/auth', authRoutes);
 //     })
 // });
 
-app.get('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes);
 app.delete('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
+app.get('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
+app.get('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes);
 app.post('/api/ver0001/fourLetterWords/', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.put('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
 
-app.get('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
+// must be correct user to change games
 app.delete('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
-app.post('/api/ver0001/games/', auth.ensureCorrectRole, gameRoutes);
-app.put('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
+app.get('/api/ver0001/games', gameRoutes);
+app.get('/api/ver0001/games/:id', gameRoutes);
+app.post('/api/ver0001/games/', gameRoutes);
+app.put('/api/ver0001/games/:id', gameRoutes);
 app.use('/api/ver0001/games', gameRoutes);
 
+app.delete('/api/ver0001/posts/:id', auth.ensureCorrectRole, postRoutes);
+app.get('/api/ver0001/posts', postRoutes);
 app.get('/api/ver0001/posts/:id', postRoutes);
-app.delete('/api/ver0001/posts/:id', postRoutes);
 app.post('/api/ver0001/posts/', postRoutes);
 app.put('/api/ver0001/posts/', postRoutes);
 app.use('/api/ver0001/posts/', postRoutes);
 
 app.delete('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
+app.get('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 app.get('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes);
 app.post('/api/ver0001/prefixSuffixRoots/', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.put('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 
-app.use('/api/ver0001/users/:id/transactions',
+app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole,
         transactionRoutes);
-
-app.get('/api/ver0001/transactions/:id', transactionRoutes);
-app.delete('/api/ver0001/transactions/:id', transactionRoutes);
-app.post('/api/ver0001/transactions/', transactionRoutes);
-app.put('/api/ver0001/transactions/:id', transactionRoutes);
-app.use('/api/ver0001/transactions/', transactionRoutes);
+app.get('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
+app.delete('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
+app.post('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
+app.put('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
+app.use('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
 
 app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
