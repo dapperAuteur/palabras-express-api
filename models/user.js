@@ -27,6 +27,10 @@ var userSchema = new mongoose.Schema({
   profileImageUrl: {
     type: String
   },
+  comments: [{
+    type: mongoose.Schema.Types.ObjectId,
+    reg: 'Comment'
+  }],
   games: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Game'
@@ -34,6 +38,14 @@ var userSchema = new mongoose.Schema({
   guesses: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'FourLetterWord'
+  }],
+  posts: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Post'
+  }],
+  transactions: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Transaction'
   }]
 }, {
   timestamps: true
