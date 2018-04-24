@@ -48,37 +48,37 @@ app.use('/api/ver0001/auth', authRoutes);
 //     })
 // });
 
-app.delete('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.get('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
 app.get('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes);
+app.delete('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.post('/api/ver0001/fourLetterWords/', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.put('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
 
 // must be correct user to change games
-app.delete('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
+
 app.get('/api/ver0001/games', gameRoutes);
 app.get('/api/ver0001/games/:id', gameRoutes);
 app.post('/api/ver0001/games/', gameRoutes);
 app.put('/api/ver0001/games/:id', gameRoutes);
+app.delete('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
 app.use('/api/ver0001/games', gameRoutes);
 
-app.delete('/api/ver0001/posts/:id', auth.ensureCorrectRole, postRoutes);
 app.get('/api/ver0001/posts', postRoutes);
 app.get('/api/ver0001/posts/:id', postRoutes);
 app.post('/api/ver0001/posts/', postRoutes);
 app.put('/api/ver0001/posts/', postRoutes);
+app.delete('/api/ver0001/posts/:id', auth.ensureCorrectRole, postRoutes);
 app.use('/api/ver0001/posts/', postRoutes);
 
-app.delete('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.get('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 app.get('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes);
+app.delete('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.post('/api/ver0001/prefixSuffixRoots/', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.put('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
 
-app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole,
-        transactionRoutes);
+app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole, transactionRoutes);
 app.get('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
 app.delete('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
 app.post('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
@@ -92,9 +92,10 @@ app.put('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 // app.use('/api/ver0001/verbos/:id', verboRoutes);
-app.delete('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
+
 app.get('/api/ver0001/verbos', verboRoutes);
 app.get('/api/ver0001/verbos/:id', verboRoutes);
+app.delete('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.post('/api/ver0001/verbos/', auth.ensureCorrectRole, verboRoutes);
 app.put('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.use('/api/ver0001/verbos', verboRoutes);
