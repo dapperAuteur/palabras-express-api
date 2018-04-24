@@ -51,7 +51,7 @@ exports.ensureCorrectRole = function (req, res, next) {
   try {
     var token = req.headers.authorization.split(" ")[1]
     // var authHeader = req.headers.authorization;
-    var role = req.headers.role.split(" ")[1];
+    // var role = req.headers.role.split(" ")[1];
     // console.log(authHeader);
     // console.log(role);
     // console.log(typeof role);
@@ -59,7 +59,7 @@ exports.ensureCorrectRole = function (req, res, next) {
     jwt.verify(token, process.env.SECRET_KEY, function (err, decoded) {
       if (decoded) {
 
-        if (decoded && role === "0") {
+        if (decoded) {
           // console.log(decoded.userId);
           next();
         } else {
