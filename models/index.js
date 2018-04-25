@@ -12,8 +12,12 @@ mongoose.connect('mongodb://localhost/fourLetterWord-api', {
 //   useMongoClient: true
 // });
 
+module.exports.Comment = require("./comment");
 module.exports.FourLetterWord = require("./fourLetterWord");
-module.exports.Verbo = require("./verbo");
-module.exports.PrefixSuffixRoot = require("./prefixSuffixRoot");
-module.exports.User = require("./user");
 module.exports.Game = require("./game");
+module.exports.Post = require("./post");
+module.exports.PrefixSuffixRoot = require("./prefixSuffixRoot");
+module.exports.Tag = require("./tag");
+module.exports.Transaction = require("./transaction");
+module.exports.User = require("./user");
+module.exports.Verbo = require("./verbo");
