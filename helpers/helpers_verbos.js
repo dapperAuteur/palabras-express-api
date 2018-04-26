@@ -1,10 +1,10 @@
 var db = require('../models');
 
 exports.getVerbos = function (req, res) {
+  console.log("getVerbos 1");
   db.Verbo.find()
     .then(function (verbos) {
-      console.log(verbos);
-      log.info(verbos);
+      console.log("getVerbos 2");
       res.json(verbos);
     })
     .catch(function (err) {
