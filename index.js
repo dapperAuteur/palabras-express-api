@@ -48,12 +48,12 @@ app.use('/api/ver0001/auth', authRoutes);
 //     })
 // });
 
-app.get('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
-app.get('/api/ver0001/fourLetterWords/:id', fourLetterWordRoutes);
-app.delete('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
-app.post('/api/ver0001/fourLetterWords/', auth.ensureCorrectRole, fourLetterWordRoutes);
-app.put('/api/ver0001/fourLetterWords/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
-app.use('/api/ver0001/fourLetterWords', fourLetterWordRoutes);
+app.get('/api/ver0001/four-letter-words', fourLetterWordRoutes);
+app.get('/api/ver0001/four-letter-words/:id', fourLetterWordRoutes);
+app.delete('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
+app.post('/api/ver0001/four-letter-words/', auth.ensureCorrectRole, fourLetterWordRoutes);
+app.put('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
+app.use('/api/ver0001/four-letter-words', fourLetterWordRoutes);
 
 // must be correct user to change games
 
@@ -71,12 +71,12 @@ app.put('/api/ver0001/posts/', postRoutes);
 app.delete('/api/ver0001/posts/:id', auth.ensureCorrectRole, postRoutes);
 app.use('/api/ver0001/posts/', postRoutes);
 
-app.get('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
-app.get('/api/ver0001/prefixSuffixRoots/:id', prefixSuffixRootRoutes);
-app.delete('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
-app.post('/api/ver0001/prefixSuffixRoots/', auth.ensureCorrectRole, prefixSuffixRootRoutes);
-app.put('/api/ver0001/prefixSuffixRoots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
-app.use('/api/ver0001/prefixSuffixRoots', prefixSuffixRootRoutes);
+app.get('/api/ver0001/prefix-suffix-roots', prefixSuffixRootRoutes);
+app.get('/api/ver0001/prefix-suffix-roots/:id', prefixSuffixRootRoutes);
+app.delete('/api/ver0001/prefix-suffix-roots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
+app.post('/api/ver0001/prefix-suffix-roots/', auth.ensureCorrectRole, prefixSuffixRootRoutes);
+app.put('/api/ver0001/prefix-suffix-roots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
+app.use('/api/ver0001/prefix-suffix-roots', prefixSuffixRootRoutes);
 
 app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole, transactionRoutes);
 app.get('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
