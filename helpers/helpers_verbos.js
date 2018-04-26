@@ -3,6 +3,8 @@ var db = require('../models');
 exports.getVerbos = function (req, res) {
   db.Verbo.find()
     .then(function (verbos) {
+      console.log(verbos);
+      log.info(verbos);
       res.json(verbos);
     })
     .catch(function (err) {
