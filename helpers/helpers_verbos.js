@@ -2,14 +2,25 @@ var db = require('../models');
 
 exports.getVerbos = function (req, res) {
   console.log("getVerbos 1");
-  db.Verbo.find()
-    .then(function (verbos) {
-      console.log("getVerbos 2");
-      res.json(verbos);
-    })
-    .catch(function (err) {
+  try {
+    db.Verbo.find()
+      .then(function (verbos) {
+        console.log("getVerbos 2");
+        res.json(verbos);
+      })
+
+  } catch (err) {
+    console.log(err);
       res.send(err);
-    });
+  }
+  // db.Verbo.find()
+  //   .then(function (verbos) {
+  //     console.log("getVerbos 2");
+  //     res.json(verbos);
+  //   })
+  //   .catch(function (err) {
+  //     res.send(err);
+  //   });
 }
 
 exports.createVerbo = function (req, res) {
