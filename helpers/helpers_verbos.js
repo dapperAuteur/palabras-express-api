@@ -9,9 +9,9 @@ exports.getVerbos = function (req, res) {
         res.json(verbos);
       })
 
-  } catch (err) {
-    console.log(err);
-      res.send(err);
+  } catch (e) {
+    console.log(e);
+      res.send(e);
   }
   // db.Verbo.find()
   //   .then(function (verbos) {
