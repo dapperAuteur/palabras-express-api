@@ -4,6 +4,8 @@
 I created this app to build an application that would help me grow in my personal life. It will be a tool for me to expand my English and Spanish vocabulary, track my expenses, and document my growth using a blog.
 It contains three word lists: four letter words, prefix and suffix words, and Spanish verbs.
 
+The client side repo is located at https://github.com/dapperAuteur/idnkhtw and hosted at www.idnkhtw.space .
+
 ## Tools used:
 * bcrypt
 * body-parser
