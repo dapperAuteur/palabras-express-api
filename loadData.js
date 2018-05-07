@@ -1,15 +1,24 @@
 const db = require("./models");
-// const prefix_root_suffix = require('./data/prefix_suffix_root_library');
+const verbos = require('./data/db/verbosDB');
+const slugify = require('@sindresorhus/slugify');
 
 
-let word = [];
+// let word = [];
 
 
 
 // console.log(words);
 // will seed data into table/collection
-// for (var i = 0; i < prefix_suffix_root.length; i++) {
-//   var p = db.PrefixSuffixRoot.create(prefix_suffix_root[i]);
-//
-// }
+for (var i = 0; i < verbos.length; i++) {
+  verbos[i].spanishSlug = slugify(verbos[i].spanish);
+  // console.log(verbos[i].spanishSlug);
+  db.Verbo.findOneAndUpdate({ _id: verbos[i]._id }, verbos[i])
+    .then(function (verbo) {
+      console.log(verbo.spanishSlug);
+    })
+    .catch(function (err) {
+      console.log(err);
+    });
+}
+
 console.log("done");

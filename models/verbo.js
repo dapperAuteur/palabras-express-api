@@ -6,6 +6,7 @@
 //   "grupo": 0
 // }
 var mongoose = require('mongoose');
+const slugify = require('@sindresorhus/slugify');
 
 var mongoosePaginate = require('mongoose-paginate');
 
@@ -14,9 +15,19 @@ var verboSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  spanishSlug: {
+    type: String,
+    default: "",
+    required: true,
+  },
   english: {
     type: String,
     default: ""
+  },
+  englishSlug: {
+    type: String,
+    default: "",
+    required: true,
   },
   reflexive: {
     type: Boolean,
@@ -45,6 +56,17 @@ var verboSchema = new mongoose.Schema({
   }
 }, {
   timestamps: true
+});
+
+verboSchema.pre('save', function (next) {
+  let verbo = this;
+  if (!verbo.isModified('spanish') || verbo.spanishSlug === "") return next();
+  slugify('spanish').then(function (spanishSlug) {
+    verbo.spanishSlug = spanishSlug
+    next();
+  }, function (err) {
+    return next(err)
+  });
 });
 
 verboSchema.plugin(mongoosePaginate);

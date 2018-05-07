@@ -1,11 +1,9 @@
 var db = require('../models');
 
 exports.getVerbos = function (req, res) {
-  console.log("getVerbos 1");
   try {
     db.Verbo.find()
       .then(function (verbos) {
-        console.log("getVerbos 2");
         res.json(verbos);
       })
 
@@ -35,6 +33,16 @@ exports.createVerbo = function (req, res) {
 
 exports.getVerbo = function (req, res) {
   db.Verbo.findById(req.params.verboId)
+    .then(function (foundVerbo) {
+      res.json(foundVerbo);
+    })
+    .catch(function (err) {
+      res.send(err);
+    });
+}
+
+exports.getVerboBySpanish = function (req, res) {
+  db.Verbo.findOne({ 'spanishSlug': req.params.verboSpanishSlug })
     .then(function (foundVerbo) {
       res.json(foundVerbo);
     })

@@ -95,6 +95,7 @@ app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
 app.get('/api/ver0001/verbos', verboRoutes);
 app.get('/api/ver0001/verbos/:id', verboRoutes);
+app.get('/api/ver0001/verbos/spanish/:verboSpanishSlug', verboRoutes);
 app.delete('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.post('/api/ver0001/verbos/', auth.ensureCorrectRole, verboRoutes);
 app.put('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);

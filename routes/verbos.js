@@ -7,6 +7,9 @@ router.route('/')
   .get(helpersVerbos.getVerbos)
   .post(helpersVerbos.createVerbo)
 
+router.route('/spanish/:verboSpanishSlug')
+  .get(helpersVerbos.getVerboBySpanish)
+
 router.route('/:verboId')
   .get(helpersVerbos.getVerbo)
   .put(helpersVerbos.updateVerbo)
