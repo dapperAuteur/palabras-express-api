@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
 
 // app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 // app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
-// app.post('/api/ver0001/users/', userRoutes);
+// app.post('/api/ver0001/users', userRoutes);
 // app.put('/api/ver0001/users/:id', userRoutes);
 // app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
@@ -51,7 +51,7 @@ app.use('/api/ver0001/auth', authRoutes);
 app.get('/api/ver0001/four-letter-words', fourLetterWordRoutes);
 app.get('/api/ver0001/four-letter-words/:id', fourLetterWordRoutes);
 app.delete('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
-app.post('/api/ver0001/four-letter-words/', auth.ensureCorrectRole, fourLetterWordRoutes);
+app.post('/api/ver0001/four-letter-words', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.put('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.use('/api/ver0001/four-letter-words', fourLetterWordRoutes);
 
@@ -59,31 +59,31 @@ app.use('/api/ver0001/four-letter-words', fourLetterWordRoutes);
 
 app.get('/api/ver0001/games', gameRoutes);
 app.get('/api/ver0001/games/:id', gameRoutes);
-app.post('/api/ver0001/games/', gameRoutes);
+app.post('/api/ver0001/games', gameRoutes);
 app.put('/api/ver0001/games/:id', gameRoutes);
 app.delete('/api/ver0001/games/:id', auth.ensureCorrectRole, gameRoutes);
 app.use('/api/ver0001/games', gameRoutes);
 
 app.get('/api/ver0001/posts', postRoutes);
 app.get('/api/ver0001/posts/:id', postRoutes);
-app.post('/api/ver0001/posts/', postRoutes);
-app.put('/api/ver0001/posts/', postRoutes);
+app.post('/api/ver0001/posts', postRoutes);
+app.put('/api/ver0001/posts', postRoutes);
 app.delete('/api/ver0001/posts/:id', auth.ensureCorrectRole, postRoutes);
-app.use('/api/ver0001/posts/', postRoutes);
+app.use('/api/ver0001/posts', postRoutes);
 
 app.get('/api/ver0001/prefix-suffix-roots', prefixSuffixRootRoutes);
 app.get('/api/ver0001/prefix-suffix-roots/:id', prefixSuffixRootRoutes);
 app.delete('/api/ver0001/prefix-suffix-roots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
-app.post('/api/ver0001/prefix-suffix-roots/', auth.ensureCorrectRole, prefixSuffixRootRoutes);
+app.post('/api/ver0001/prefix-suffix-roots', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.put('/api/ver0001/prefix-suffix-roots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.use('/api/ver0001/prefix-suffix-roots', prefixSuffixRootRoutes);
 
 app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole, transactionRoutes);
 app.get('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
 app.delete('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
-app.post('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
+app.post('/api/ver0001/transactions', auth.ensureCorrectRole, transactionRoutes);
 app.put('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
-app.use('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
+app.use('/api/ver0001/transactions', auth.ensureCorrectRole, transactionRoutes);
 
 app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
@@ -97,7 +97,7 @@ app.get('/api/ver0001/verbos', verboRoutes);
 app.get('/api/ver0001/verbos/:id', verboRoutes);
 app.get('/api/ver0001/verbos/spanish/:verboSpanishSlug', verboRoutes);
 app.delete('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
-app.post('/api/ver0001/verbos/', auth.ensureCorrectRole, verboRoutes);
+app.post('/api/ver0001/verbos', auth.ensureCorrectRole, verboRoutes);
 app.put('/api/ver0001/verbos/:id', auth.ensureCorrectRole, verboRoutes);
 app.use('/api/ver0001/verbos', verboRoutes);
 
