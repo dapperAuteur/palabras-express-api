@@ -3,7 +3,8 @@ var mongoose = require("mongoose");
 var tagSchema = new mongoose.Schema({
   text: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   comments: [{
     type: mongoose.Schema.Types.ObjectId,

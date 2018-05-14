@@ -49,8 +49,9 @@ exports.ensureCorrectUser = function (req, res, next) {
 
 exports.ensureCorrectRole = function (req, res, next) {
   try {
-    var token = req.headers.authorization.split(" ")[1]
+    var token = req.headers.authorization.split(" ")[1];
     // var authHeader = req.headers.authorization;
+    // var userId = req.headers.userId.split(" ")[1];
     var role = req.headers.role.split(" ")[1];
     // console.log(authHeader);
     // console.log(role);

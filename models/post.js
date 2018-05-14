@@ -12,7 +12,11 @@ var postSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: true
+    required: false
+  },
+  passwordProtected: {
+    type: Boolean,
+    default: true
   },
   comments: [{
     type: mongoose.Schema.Types.ObjectId,
