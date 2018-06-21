@@ -27,6 +27,9 @@ var userSchema = new mongoose.Schema({
   profileImageUrl: {
     type: String
   },
+  translationScore: {
+    type: String
+  },
   comments: [{
     type: mongoose.Schema.Types.ObjectId,
     reg: 'Comment'

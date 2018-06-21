@@ -36,7 +36,7 @@ var gameSchema = new mongoose.Schema({
     required: true,
     default: 0
   },
-  winning_word: {
+  winningWord: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'FourLetterWord',
   },
@@ -45,7 +45,7 @@ var gameSchema = new mongoose.Schema({
     required: true,
     default: false
   },
-  word_to_consider_for_library: {
+  wordToConsiderForLibrary: {
     type: Array
   }
 }, {
