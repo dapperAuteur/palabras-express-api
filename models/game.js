@@ -26,7 +26,7 @@ var gameSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'FourLetterWord',
   }],
-  userId: {
+  currentUserId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
     required: true
@@ -45,7 +45,7 @@ var gameSchema = new mongoose.Schema({
     required: true,
     default: false
   },
-  wordToConsiderForLibrary: {
+  wordsToConsiderForLibrary: {
     type: Array
   }
 }, {
