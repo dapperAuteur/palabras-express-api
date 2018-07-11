@@ -12,4 +12,7 @@ router.route('/:verboId')
   .put(helpersVerbos.updateVerbo)
   .delete(helpersVerbos.deleteVerbo)
 
+router.route('/spanish/:spanish')
+  .get(helpersVerbos.getSpanish)
+
 module.exports = router;

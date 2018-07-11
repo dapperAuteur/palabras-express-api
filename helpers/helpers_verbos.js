@@ -43,6 +43,16 @@ exports.getVerbo = function (req, res) {
     });
 }
 
+exports.getSpanish = function (req, res) {
+  db.Verbo.find({ spanish: req.params.spanish })
+    .then(function (foundVerbo) {
+      res.json(foundVerbo);
+    })
+    .catch(function (err) {
+      res.send(err);
+    });
+}
+
 exports.updateVerbo = function (req, res) {
   db.Verbo.findOneAndUpdate({ _id: req.params.verboId }, req.body, { new: true })
     .then(function (verbo) {
