@@ -12,4 +12,7 @@ router.route('/:fourLetterWordId')
   .put(helpersFourLetterWords.updateFourLetterWord)
   .delete(helpersFourLetterWords.deleteFourLetterWord)
 
+router.route('/words/:word')
+  .get(helpersFourLetterWords.getWord)
+
 module.exports = router;
