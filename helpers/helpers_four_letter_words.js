@@ -30,6 +30,16 @@ exports.getFourLetterWord = function (req, res) {
     });
 }
 
+exports.getWord = function (req, res) {
+  db.FourLetterWord.find({ word: req.params.word })
+    .then(function (foundWord) {
+      res.json(foundWord);
+    })
+    .catch(function (err) {
+      res.send(err);
+    });
+}
+
 exports.updateFourLetterWord = function (req, res) {
   db.FourLetterWord.findOneAndUpdate({ _id: req.params.fourLetterWordId }, req.body, { new: true })
     .then(function (fourLetterWord) {
