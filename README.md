@@ -88,9 +88,9 @@ ONLY 'text' is required.
 * users (protected):
 'email', 'role', 'username', 'password', are required.
 `{
-  email: 'string',
+  email: 'string' (unique),
   role: NUMBER,
-  username: 'string',
+  username: 'string' (unique),
   password: 'string',
   profileImageUrl: 'string',
   translationScore: 'string',
