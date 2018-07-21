@@ -12,7 +12,7 @@ var postSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: true
+    required: false
   },
   comments: [{
     type: mongoose.Schema.Types.ObjectId,
@@ -22,7 +22,7 @@ var postSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Tag'
   }],
-  userId: {
+  currentUserId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
