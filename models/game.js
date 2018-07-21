@@ -36,9 +36,10 @@ var gameSchema = new mongoose.Schema({
     required: true,
     default: 0
   },
-  winningWord: {
+  winningWordId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'FourLetterWord',
+    required: true,
   },
   won: {
     type: Boolean,

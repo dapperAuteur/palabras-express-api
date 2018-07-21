@@ -36,7 +36,7 @@ var transactionSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Tag'
   }],
-  userId: {
+  currentUserId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
