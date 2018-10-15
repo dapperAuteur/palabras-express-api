@@ -21,7 +21,7 @@ exports.ensureCorrectUser = function (req, res, next) {
   try {
     var token = req.headers.authorization.split(" ")[1]
     jwt.verify(token, process.env.SECRET_KEY, function (err, decoded) {
-      if (decoded && decoded.userId === req.params.id) {
+      if (decoded && decoded.currentUserId === req.params.id) {
         next();
       } else {
         res.status(401).json({ message: "You do NOT have the proper credentials for this action." })
@@ -67,14 +67,14 @@ exports.ensureCorrectRole = function (req, res, next) {
           res.status(401).json({
             message: "Must be an admin to perform this action.",
             decoded: decoded,
-            id: decoded.userId
+            id: decoded.currentUserId
           })
         }
       } else {
         res.status(401).json({
           message: "Please login.",
           decoded: decoded,
-          id: decoded.userId
+          id: decoded.currentUserId
         });
       }
     })
