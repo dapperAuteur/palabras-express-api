@@ -32,7 +32,7 @@ var userSchema = new mongoose.Schema({
   },
   comments: [{
     type: mongoose.Schema.Types.ObjectId,
-    reg: 'Comment'
+    ref: 'Comment'
   }],
   games: [{
     type: mongoose.Schema.Types.ObjectId,

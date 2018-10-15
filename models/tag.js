@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 
 var tagSchema = new mongoose.Schema({
-  text: {
+  tagName: {
     type: String,
     required: true
   },

@@ -14,10 +14,6 @@ var transactionSchema = new mongoose.Schema({
     type: String,
     required: false
   },
-  password: {
-    type: String,
-    required: false
-  },
   details: {
     type: String,
     required: false
@@ -44,25 +40,6 @@ var transactionSchema = new mongoose.Schema({
 }, {
   timestamps: true
 });
-
-transactionSchema.pre('save', function (next) {
-  var transaction = this;
-  if (!transaction.isModified('password'))
-  return next();
-  bcrypt.hash(transaction.password, 10).then(function (hashedPassword) {
-    transaction.password = hashedPassword
-    next();
-  }, function (err) {
-    return next(err)
-  });
-});
-
-transactionSchema.methods.comparePassword = function (transactionPassword, next) {
-  bcrypt.compare(transactionPassword, this.password, function (err, isMatch) {
-    if (err) return next(err);
-    next(null, isMatch);
-  });
-};
 
 var Transaction = mongoose.model('Transaction', transactionSchema);
 module.exports = Transaction;

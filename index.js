@@ -11,7 +11,8 @@ var fourLetterWordRoutes = require('./routes/fourLetterWords');
 var gameRoutes = require('./routes/games');
 var postRoutes = require('./routes/posts');
 var prefixSuffixRootRoutes = require('./routes/prefixSuffixRoots');
-var transactionRoutes = require('./routes/transactions');
+var tagRoutes = require('./routes/tags');
+var txRoutes = require('./routes/transactions');
 var userRoutes = require('./routes/users');
 var verboRoutes = require('./routes/verbos');
 var auth = require('./middleware/auth');
@@ -79,12 +80,19 @@ app.post('/api/ver0001/prefix-suffix-roots/', auth.ensureCorrectRole, prefixSuff
 app.put('/api/ver0001/prefix-suffix-roots/:id', auth.ensureCorrectRole, prefixSuffixRootRoutes);
 app.use('/api/ver0001/prefix-suffix-roots', prefixSuffixRootRoutes);
 
-app.use('/api/ver0001/users/:id/transactions', auth.ensureCorrectRole, transactionRoutes);
-app.get('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
-app.delete('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
-app.post('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
-app.put('/api/ver0001/transactions/:id', auth.ensureCorrectRole, transactionRoutes);
-app.use('/api/ver0001/transactions/', auth.ensureCorrectRole, transactionRoutes);
+app.get('/api/ver0001/tags', tagRoutes);
+app.get('/api/ver0001/tags/:id', tagRoutes);
+app.delete('/api/ver0001/tags/:id', auth.ensureCorrectRole, tagRoutes);
+app.post('/api/ver0001/tags', auth.loginRequired, tagRoutes);
+app.put('/api/ver0001/tags/:id', auth.ensureCorrectRole, tagRoutes);
+app.use('/api/ver0001/tags', tagRoutes);
+
+app.use('/api/ver0001/users/:id/tx', auth.ensureCorrectRole, txRoutes);
+app.get('/api/ver0001/tx/:id', auth.ensureCorrectRole, txRoutes);
+app.delete('/api/ver0001/tx/:id', auth.ensureCorrectRole, txRoutes);
+app.post('/api/ver0001/tx/', auth.ensureCorrectRole, txRoutes);
+app.put('/api/ver0001/tx/:id', auth.ensureCorrectRole, txRoutes);
+app.use('/api/ver0001/tx/', auth.ensureCorrectRole, txRoutes);
 
 app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
