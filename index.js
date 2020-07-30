@@ -57,7 +57,7 @@ app.get('/api/ver0001/four-letter-words/:id', fourLetterWordRoutes);
 app.delete('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.post('/api/ver0001/four-letter-words/', auth.ensureCorrectRole, fourLetterWordRoutes);
 app.put('/api/ver0001/four-letter-words/:id', auth.ensureCorrectRole, fourLetterWordRoutes);
-app.use('/api/ver0001/four-letter-words', fourLetterWordRoutes);
+app.use('/api/ver0001/four-letter-words', fourLetterWordRoutes); // how does `*.use` differ from other verbs
 
 // must be correct user to change games
 
