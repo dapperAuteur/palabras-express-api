@@ -102,7 +102,7 @@ app.post('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 app.put('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 app.use('/api/ver0001/users', auth.ensureCorrectRole, userRoutes);
 
-// app.use('/api/ver0001/verbos/:id', verboRoutes);
+// app.use('/api/ver0001/verbos/:id', verboRoutes); // what impact does this have being here vs being below the other verboRoutes
 
 app.get('/api/ver0001/verbos', verboRoutes);
 app.get('/api/ver0001/verbos/spanish/:spanish', verboRoutes);
