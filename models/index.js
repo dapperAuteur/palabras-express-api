@@ -4,13 +4,8 @@ mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/fourLetterWord-api', {
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE,
-  useMongoClient: true
+  // useMongoClient: true
 });
-// mongoose.connect(process.env.MONGODB_URI, {
-//   keepAlive: true,
-//   reconnectTries: Number.MAX_VALUE,
-//   useMongoClient: true
-// });
 
 module.exports.Comment = require("./comment");
 module.exports.FourLetterWord = require("./fourLetterWord");
