@@ -26,6 +26,8 @@ app.get('/', function (req, res) {
   res.send("Hola From Root Route");
 });
 
+// why didn't the authorization middleware work
+
 // app.get('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 // app.delete('/api/ver0001/users/:id', auth.ensureCorrectRole, userRoutes);
 // app.post('/api/ver0001/users/', userRoutes);
