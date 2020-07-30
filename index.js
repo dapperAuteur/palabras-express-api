@@ -115,7 +115,7 @@ app.use('/api/ver0001/verbos', verboRoutes);
 const PORT = process.env.PORT || 8081;
 
 app.use(function (req, res, next) { //can I replace `req, res` with `_, _` since they aren't being used
-  let err = new Error("Not Found");
+  let err = new Error("Not Found"); // what's this
   err.status = 404;
   next(err);
 });
