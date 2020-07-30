@@ -1,5 +1,5 @@
 require("dotenv").config()
-var express = require('express'),
+var express = require('express'), // Comma operator (s) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator
     app = express(),
     cors = require('cors'),
     bodyParser = require('body-parser');
