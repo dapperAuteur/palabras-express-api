@@ -20,7 +20,7 @@ const errorHandler = require("./handlers/error");
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true })); // https://www.npmjs.com/package/body-parser-json
 
 app.get('/', function (req, res) {
   res.send("Hola From Root Route");
