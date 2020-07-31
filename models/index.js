@@ -3,8 +3,7 @@ mongoose.set('debug', true);
 mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/fourLetterWord-api', {
   keepAlive: true,
-  reconnectTries: Number.MAX_VALUE,
-  // useMongoClient: true
+  reconnectTries: Number.MAX_VALUE
 });
 
 module.exports.Comment = require("./comment");
