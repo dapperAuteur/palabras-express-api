@@ -1,2 +1,4 @@
 .env
 node_modules
+
+data/mongoDB_atlas_cloud_connection_details.rtf
