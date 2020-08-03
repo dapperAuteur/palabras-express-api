@@ -10,15 +10,18 @@ The client side repo is located at https://github.com/dapperAuteur/idnkhtw and h
 default port: 8081
 * comments (coming soon):
 ALL keys are required EXCEPT 'tags'.
-  `{
+  ```js
+  {
     tags: ['array', 'of', 'strings'],
     currentUserId: 'string',
     postId: 'string',
     timestamps: 'string'
-    }`
+    }
+  ```
 * four-letter-words:
 ONLY 'word' is required.
-  `{
+  ```js
+  {
     word: 'string',
     definition: 'string',
     s_points: NUMBER,
@@ -27,10 +30,12 @@ ONLY 'word' is required.
     in_game: Boolean,
     tongue: 'string',
     timestamps: ''
-    }`
+    }
+  ```
 * games (coming soon):
 'attempts', 'bulls', 'cows', 'currentUserId', 'score', 'winningWord', 'won' are required.
-  `{
+  ```js
+  {
     attempts: NUMBER,
     bulls: NUMBER (max 4, min 0),
     cows: NUMBER (max 4, min 0),
@@ -41,10 +46,12 @@ ONLY 'word' is required.
     won: Boolean (default: false),
     wordsToConsiderForLibrary: ['array', 'of', 'strings'],
     timestamps: ''
-    }`
+    }
+  ```
 * posts:
 'title', 'text', 'currentUserId' are required
-`{
+```js
+  {
   title: string,
   text: string,
   password: string,
@@ -52,28 +59,34 @@ ONLY 'word' is required.
   tags: ['array', 'of', 'ids'],
   currentUserId: 'string'
   timestamps: ''
-  }`
+  }
+  ```
 * prefix-suffix-roots:
 ONLY 'word' is required.
-  `{
+  ```js
+  {
     word: 'string',
     meaning: 'string',
     examples: 'string',
     type: 'string',
     tongue: 'string',
     timestamps: ''
-    }`
+    }
+  ```
 * tags (coming soon):
 ONLY 'text' is required.
-`{
+```js
+  {
   text: 'string',
   comments: ['array', 'of', 'ids'],
   posts: ['array', 'of', 'ids'],
   timestamps: ''
-  }`
+  }
+  ```
 * transactions (protected):
 'transactionEvent', 'account', 'amount', 'currency', 'currentUserId' are required.
-`{
+```js
+  {
   transactionEvent: 'string',
   account: 'string',
   dateTime: 'string',
@@ -84,10 +97,12 @@ ONLY 'text' is required.
   tags: ['array', 'of', 'ids'],
   currentUserId: 'string',
   timestamps: ''
-  }`
+  }
+  ```
 * users (protected):
 'email', 'role', 'username', 'password', are required.
-`{
+```js
+  {
   email: 'string' (unique),
   role: NUMBER,
   username: 'string' (unique),
@@ -100,10 +115,12 @@ ONLY 'text' is required.
   posts: ['array', 'of', 'ids'],
   transactions: ['array', 'of', 'ids'],
   timestamps: ''
-  }`
+  }
+  ```
 * verbos:
 ONLY 'spanish' is required.
-  `{
+  ```js
+  {
     spanish: 'string',
     english: 'string',
     reflexive: Boolean,
@@ -113,9 +130,12 @@ ONLY 'spanish' is required.
     terminación: 'string',
     grupo: NUMBER,
     timestamps: ''
-    }`
+    }
+  ```
 
 ### Road Map:
+#### `/api/ver0002/`
+* switch from JWT's to Sessions for authentication/authorization
 * more slugs for endpoints
 * more roles for users with various authorizations levels/abilities
 * store game status
@@ -144,12 +164,12 @@ ONLY 'spanish' is required.
 ### Namespaced:
 api/ver0001/ (I like to put the three 0's in the version of my apps to allow for growth.
 ### Routes:
-* comments/
+* comments/ (coming soon)
 * four-letter-words/ (It's a large list, about 4000 words.)
 * games/
 * posts/
 * prefix-suffix-roots/ (List of 448 words.)
-* tags/
-* transactions/
-* users/
+* tags/ (coming soon)
+* transactions/ (restricted)
+* users/ (restricted)
 * verbos/ (List of 346 Spanish verbs.)
